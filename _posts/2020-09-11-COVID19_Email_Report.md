@@ -9,7 +9,7 @@ Aim: Reduce anxiety, stress, and misinformation during the COVID-19 pandemic by 
 
 Tra
 
-Find out more by exploring my [dashboard](https://jensennhu.github.io/covid19_email_report) 
+Here's a [sample email report](https://jensennhu.github.io/covid19_email_report) 
 Also, [visit the project on GitHub](https://github.com/jensennhu/covid19_email_report).  
 ![covid_email](/images/covid_email.PNG)  
 
