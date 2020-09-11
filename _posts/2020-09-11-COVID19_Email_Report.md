@@ -1,31 +1,16 @@
 ---
 layout: post
-title: Exploring NYC's social vulnerability and child opportunity with the intent of assessing child mental health need in the context of COVID-19 and racial injustice
+title: Automated Email Reporting to non-public health audience during the COVID-19 Pandemic
 ---
-Alternative title: *Assessment of NYC's Child Mental Health Need using the CDC's Social Vulnerability Index (SVI) and the Child Opportunity Index (COI) in the context of COVID19 and Racial Injustice*  
 
-Aim: routing public health efforts and mental health resources to areas of high risk and need. 
+Aim: Reduce anxiety, stress, and misinformation during the COVID-19 pandemic by providing raw data points in an easily digestible and accessible format.    
 
-- Why focus on the mental health needs of children?  
+- Why use email?
 
-Traumatic events have long term impact on the social and economic fabric within our communities and influence the perception, development, and health outcomes of the youngest among us. The effects of COVID-19 and incidences of racial injustice are significant trauma in the lives of children today.
+Tra
 
-COVID-19 disproportionately uprooted (and continues to do so) lives of those in minority communities. From lives lost as a result of COVID-19 infection to financial instability due to economic shut down to major disruptions in learning and education, the coronavirus pandemic has revealed society's racial inequity and our population's most vulnerable and in greatest need of support. 
-
-The murder of George Floyd in Minneapolis, Ahmaud Arbery in Georgia, and Breonna Taylor in Louisville, although geographically separate, share the same vein of systemic racism as COVID-19 within our country. As Commissioner Barbot put "trauma within the trauma of the COVID-19 public health emergency." Chronic grief, fear, and instability put children within our minority communities at great risk.
-
-As the future of our communities, children - especially those with existing socioeconomic disadvantages - need mental health resources and support to navigate the long term effects of these traumatic events. 
-
-- Why use the Social Vulnerability Index (SVI)?
-
-  > SVI data can be used to identify communities that will need continued support to recover following an emergency or natural disaster, and allocate emergency preparedness funding by community need. - CDC
-
-- Why use the Child Opportunity Index (COI)?
-
-  > Neighborhoods matter for children’s health and development... There is wide variation in child opportunity across metros but wider inequities occur within metros. Although metros are relatively small geographic areas, the opportunity gap for children is often as wide (or wider) within metros as it is across metros throughout the country. Within a given metro area, children who live only short distances apart often experience two completely different worlds of neighborhood opportunity. - diversitydatakids.org
-
-Find out more by exploring my [dashboard](https://jensennhu.github.io/covid19_mh_need/) (best opened on desktop)  
-Also, [visit the project on GitHub](https://github.com/jensennhu/covid19_mh_need).  
-![mh_needs_svi_dash2](/images/mh_needs_svi_dash.PNG)  
+Find out more by exploring my [dashboard](https://jensennhu.github.io/covid19_email_report) 
+Also, [visit the project on GitHub](https://github.com/jensennhu/covid19_email_report).  
+![covid_email](/images/covid_email.PNG)  
 
 Disclaimer: the opinions expressed and analyses performed are solely my own and do not necessarily reflect the official policy or position of my employer.
