@@ -2,7 +2,7 @@
 layout: post
 title: CURRENTLY IN DRAFT- Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)  
 ---  
-![image2](/images/portfolio3.png)  ![image](/images/portfolio4.png)  
+![image](/images/portfolio4.png) ![image2](/images/portfolio3.png)   
 
 Aim: Reduce anxiety, stress, and misinformation during the COVID-19 pandemic by providing consistent reporting in an easily digestible and accessible format.        
 
