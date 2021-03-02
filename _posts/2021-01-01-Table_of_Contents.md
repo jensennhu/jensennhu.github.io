@@ -9,6 +9,16 @@ Data Exploration & Visualization
 Automating Reporting Methods
 - [Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)](https://jensennhu.github.io//2020/09/14/COVID19_Email_Report/)
 
+Working out Data Problems (the less glamorous, but practical stuff)
+- TBD Example of working through a data matching problem
+- TBD Example of working through a NLP problem
+- TBD Example of cleaning super messy data
+
+Transforming data into a Report (also less glamorous, but practical stuff)
+- TBD Examples of common transformations into a report
+- TBD Creating readable and interpretable reports for high-level leadership 
+- TBD Making reproducible and reusable reports
+
 Webscrapping 
 - Basic webscrapping with Scrapy in Python (needs write up)
 
