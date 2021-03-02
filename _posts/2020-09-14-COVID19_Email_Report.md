@@ -1,14 +1,18 @@
 ---
 layout: post
-title: CURRENTLY IN DRAFT- Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)  
+title: *DRAFT*- Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)  
 ---  
 
-Aim: Reduce anxiety, stress, and misinformation during the COVID-19 pandemic by providing consistent reporting in an easily digestible and accessible format.        
+Aim: Reduce anxiety, stress, and misinformation during the COVID-19 pandemic by providing consistent reporting in an easily digestible and accessible format. Take in feedback from end-users/consumers, identify areas of improvement. 
 
 Introduction:
-Data insights that are timely, accurate, and interpretable are a rare commodity during a pandemic. In the initial wave of COVID-19 in New York City (April 2020), I found it overwhelming to parse through all the information being released. From news article notifications to social media posts to daily podcasts to interviews with various experts -- the information was out there, but what I really was looking for--and as Governor Cuomo would say--was "just the facts." 
+Data insights that are timely, accurate, and interpretable are hard to come by during a pandemic. In the initial wave of COVID-19 in New York City (April 2020), I found it overwhelming to parse through the new information being released and wanted to find a reliable source of data. In April, New York Times released their public ongoing repository for COVID-19 data for researchers and officials. Dashboards and visualizations were being built and released, but I didn't find them personable. Instead of a standing resource of high-level information to visit, I was looking for a tailored flow of consistent and reliable data points on the outbreak to be delivered to me, daily. This is where automated email reporting came into play!
 
-In April, New York Times released their public ongoing repository for COVID-19 data for researchers and officials. Dashboards and visualizations were being built and released, but I didn't find them personal. Instead of a standing resource of high-level information to visit, I was seeking a tailored flow of consistent, reliable, raw data points on the outbreak to be delivered to me, daily. This is where email reporting came into play!
+Methods:
+*Insert data flow chart here*
+
+Lessons Learned:
+*Insert lessons learned*
 
 
 Data Source: https://github.com/nytimes/covid-19-data
