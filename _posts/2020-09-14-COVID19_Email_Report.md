@@ -1,6 +1,6 @@
 ---
 layout: post
-title: *DRAFT*- Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)  
+title: #DRAFT# Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)  
 ---  
 
 Aim: Reduce anxiety, stress, and misinformation during the COVID-19 pandemic by providing consistent reporting in an easily digestible and accessible format. Take in feedback from end-users/consumers, identify areas of improvement. 
