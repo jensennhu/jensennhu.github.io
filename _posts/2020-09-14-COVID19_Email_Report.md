@@ -19,8 +19,10 @@ Data Source: https://github.com/nytimes/covid-19-data
 
 Tools: blastula, dplyr, ggplot2
 
-Here's a [sample email report](https://jensennhu.github.io/covid19_email_report) (preview for LA county below as well!)
-Also, [visit the project on GitHub](https://github.com/jensennhu/covid19_email_report).  
-![covid_email](/images/covid_email.PNG)  
+![mh_needs_svi_dash2](/images/joined1_2.jpg)
+![mh_needs_svi_dash2](/images/joined3_4.jpg)
+
+
+Also, [visit the project on GitHub](https://github.com/jensennhu/automated_sitrep_covid19).  
 
 Disclaimer: the opinions expressed and analyses performed are solely my own and do not necessarily reflect the official policy or position of my employer.
