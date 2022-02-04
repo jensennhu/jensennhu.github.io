@@ -19,12 +19,9 @@ This email report was sent to ~20+ people interested in receiving daily updates 
 
 <details>
   <Code>
-    Code
-  </Code>
   ```
-  ``` 
-# create metric views for domestic(state, county) and international 
-state_fun <- function(place){
+  # create metric views for domestic(state, county) and international 
+  state_fun <- function(place){
   (if (place %in% us_states){
       filter(covid_state, covid_state$state == {place})
       } else if (place %in% us_counties){
@@ -58,8 +55,9 @@ state_fun <- function(place){
            # percent change in 7 day moving average in new deaths (from the previous week)
            deaths_week_pct_mavg = (deaths_week_mavg/lag(deaths_week_mavg, n = 7) - 1) * 100
            )
-}
+  }
 ```
+  </Code>
 </details>
 
 **Lessons Learned**  
