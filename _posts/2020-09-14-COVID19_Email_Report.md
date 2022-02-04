@@ -18,12 +18,12 @@ This email report was sent to ~20+ people interested in receiving daily updates 
 
 
 <details>
-  <summary>
-    summary
-  </summary>
-  details
-</details>
-``` 
+  <Code>
+    Code
+  </Code>
+  ```
+  ``` 
+# create metric views for domestic(state, county) and international 
 state_fun <- function(place){
   (if (place %in% us_states){
       filter(covid_state, covid_state$state == {place})
@@ -37,18 +37,16 @@ state_fun <- function(place){
           place
         }) %>% 
     # row difference w/NA padding for x record(s) depending on look back
-    transform(cases_new = c(NA, diff(.$cases)),
-              cases_new_week = c(rep(NA, 7), diff(.$cases, lag = 7)),
-              cases_new_two_week = c(rep(NA, 14), diff(.$cases, lag = 14)),
-              deaths_new = c(NA, diff(.$deaths)),
-              deaths_new_week = c(rep(NA, 7), diff(.$deaths, lag = 7)),
-              deaths_new_two_week = c(rep(NA, 14), diff(.$deaths, lag =  14)))%>% 
-    # percent change in cases from yesterday
-    mutate(cases_pct_growth = (cases/lag(cases) - 1) * 100,
+    mutate(cases_new = c(NA, diff(.$cases)),
+           cases_new_week = c(rep(NA, 7), diff(.$cases, lag = 7)),
+           cases_new_two_week = c(rep(NA, 14), diff(.$cases, lag = 14)),
+           deaths_new = c(NA, diff(.$deaths)),
+           deaths_new_week = c(rep(NA, 7), diff(.$deaths, lag = 7)),
+           deaths_new_two_week = c(rep(NA, 14), diff(.$deaths, lag =  14)),
+           # percent change in cases from yesterday
+           cases_pct_growth = (cases/lag(cases) - 1) * 100,
            # 7 day moving average for new cases 
            cases_week_mavg = EMA(cases_new, n = 7),
-           # percent growth in 7 days
-           cases_week_pct_growth = (cases/lag(cases, n = 7) - 1) * 100,
            # percent change in 7 day moving average in new cases (from the previous week)
            cases_week_pct_mavg = (cases_week_mavg/lag(cases_week_mavg, n = 7) - 1) * 100,
            # percent change in 7 day moving average in new cases (from the previous day)
@@ -62,6 +60,7 @@ state_fun <- function(place){
            )
 }
 ```
+</details>
 
 **Lessons Learned**  
 Here are some of the major lessons learned from this project:  
