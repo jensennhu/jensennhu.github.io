@@ -14,12 +14,60 @@ There were three main R scripts to:
 - (2) Compile tables and plots into report layout using RMarkdown
 - (3) Email compiled report to recipients using Blastula package  
 
-This email report was sent to ~20+ people interested in receiving daily updates on COVID-19. Recipients were able to provide ongoing feedback to improve the report's interpretability and content. Edits were made to the main scripts in a staging folder separate from a production folder. I automated the report distribution using my computer's windows task scheduler which triggered a .bat file and subsequently the "send_email.R" script. 
+This email report was sent to ~20+ people interested in receiving daily updates on COVID-19. Recipients were able to provide ongoing feedback to improve the report's interpretability and content. Edits were made to the main scripts in a staging folder separate from a production folder. I automated the report distribution using my computer's windows task scheduler which triggered a .bat file and subsequently the "send_email.R" script. Sending an email from R required an email account/provider that allowed third-party access.
+
+
+<details>
+  <summary>
+    summary
+  </summary>
+  details
+</details>
+``` 
+state_fun <- function(place){
+  (if (place %in% us_states){
+      filter(covid_state, covid_state$state == {place})
+      } else if (place %in% us_counties){
+        filter(covid_county, covid_county$county == {place})
+        } else if (place %in% province){
+          filter(international, international$`Province/State` == {place})
+        } else if (place %in% country){
+          filter(international, international$`Country/Region` == {place}, international$`Province/State` == "")
+        } else {
+          place
+        }) %>% 
+    # row difference w/NA padding for x record(s) depending on look back
+    transform(cases_new = c(NA, diff(.$cases)),
+              cases_new_week = c(rep(NA, 7), diff(.$cases, lag = 7)),
+              cases_new_two_week = c(rep(NA, 14), diff(.$cases, lag = 14)),
+              deaths_new = c(NA, diff(.$deaths)),
+              deaths_new_week = c(rep(NA, 7), diff(.$deaths, lag = 7)),
+              deaths_new_two_week = c(rep(NA, 14), diff(.$deaths, lag =  14)))%>% 
+    # percent change in cases from yesterday
+    mutate(cases_pct_growth = (cases/lag(cases) - 1) * 100,
+           # 7 day moving average for new cases 
+           cases_week_mavg = EMA(cases_new, n = 7),
+           # percent growth in 7 days
+           cases_week_pct_growth = (cases/lag(cases, n = 7) - 1) * 100,
+           # percent change in 7 day moving average in new cases (from the previous week)
+           cases_week_pct_mavg = (cases_week_mavg/lag(cases_week_mavg, n = 7) - 1) * 100,
+           # percent change in 7 day moving average in new cases (from the previous day)
+           cases_day_pct_mavg = (cases_week_mavg/lag(cases_week_mavg, n = 1) - 1) * 100,
+           # Show sign
+           sign = sign(cases_week_pct_mavg),
+           # 7 day moving average for new deaths
+           deaths_week_mavg = EMA(deaths_new, n = 7),
+           # percent change in 7 day moving average in new deaths (from the previous week)
+           deaths_week_pct_mavg = (deaths_week_mavg/lag(deaths_week_mavg, n = 7) - 1) * 100
+           )
+}
+```
 
 **Lessons Learned**  
 Here are some of the major lessons learned from this project:  
-- Delays and issues in uploading information to data sources are bound to happen. Set flags within scripts to terminate code when necessary. 
+- Delays and issues in uploading information to data sources happen. Set flags within scripts to terminate code when necessary. 
 - In order to successfully automate a script, consider a cloud-based solution. My local desktop computer's window task scheduler depends on AC power and wifi/internet connection (the latter for pulling data from github and sending emails). If either of those pieces were missing, the report did not go out. 
+- Blastula and mailR packages are great options for email distribution via R. I ended up going with Blastula because it was able to render an rmarkdown file which was easier to customize.
 
 **Data Source:** https://github.com/nytimes/covid-19-data
 
