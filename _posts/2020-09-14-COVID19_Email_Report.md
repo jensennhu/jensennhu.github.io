@@ -16,8 +16,8 @@ There were three main R scripts to:
 
 This email report was sent to ~20+ people interested in receiving daily updates on COVID-19. Recipients were able to provide ongoing feedback to improve the report's interpretability and content. Edits were made to the main scripts in a staging folder separate from a production folder. I automated the report distribution using my computer's windows task scheduler which triggered a .bat file and subsequently the "send_email.R" script. Sending an email from R required an email account/provider that allowed third-party access.
 
-
-<details>
+Sample code (click to expand)
+<Function>
   <Code>
   ```
   # create metric views for domestic(state, county) and international 
@@ -58,7 +58,7 @@ This email report was sent to ~20+ people interested in receiving daily updates 
   }
 ```
   </Code>
-</details>
+</Function>
 
 **Lessons Learned**  
 Here are some of the major lessons learned from this project:  
