@@ -1,4 +1,4 @@
 ---  
 layout: post  
-title: Predicting California Housing Price using Python's scikit learn - a gentle walkthrough
+title: Predicting California Housing Price - Regression using Python's Scikit Learn
 ---  
