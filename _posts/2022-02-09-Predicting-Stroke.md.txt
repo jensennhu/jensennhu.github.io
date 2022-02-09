@@ -1,0 +1,4 @@
+---
+layout: post
+title: Walkthrough: Predicting California Housing Price
+---
