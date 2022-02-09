@@ -8,3 +8,9 @@ Data Exploration & Visualization
 
 Automating Reporting Methods
 - [Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)](https://jensennhu.github.io//2020/09/14/COVID19_Email_Report/)
+
+Regression  
+- [Predicting California Housing Price - Regression using Python's Scikit Learn](https://jensennhu.github.io//2022/02/09/California_housing/) 
+
+Classification  
+- [Modeling the Occurrence of Stroke - Binary Classification with Python's Scikit Learn](https://jensennhu.github.io//2022/02/09/Predicting-Stroke/) 
