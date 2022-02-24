@@ -18,7 +18,7 @@ Regression
 - (PENDING) [Predicting California Housing Price - Regression using Python's Scikit Learn](https://jensennhu.github.io//2022/02/09/California_housing/) 
 
 Classification  
-- (PENDING) [Modeling the Occurrence of Stroke - Binary Classification with Python's Scikit Learn](https://jensennhu.github.io//2022/02/09/Predicting-Stroke/) 
+- (PENDING) [Modeling the Occurrence of Stroke - Binary Classification with Python's Scikit Learn](https://jensennhu.github.io//2022/02/09/stroke/) 
 
 
 <div class="figure">
