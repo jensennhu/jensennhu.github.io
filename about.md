@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey there! My name is Jensen Hu :) A bit about myself: I am a Senior Data Analytics Developer at Mathematica (~3 years) and before that I worked at the New York City Department of Health and Mental Hygiene as a Health Data Scientist (3.5 years). I've spent my time on projects related to early childhood education, return to work after disability, school meal operations, COVID19 vaccination rates, etc. I enjoy building reporting tools and visualizations in R, Python, and SAS. This portfolio, a constant work in progress as I continue to learn more in the field of data science, is used to showcase my projects, discuss lessons learned, and hopefully document my progress. Thanks for time. Please feel free to reach out to me: jensennhu@gmail.com   
+  Hey there! My name is Jensen Hu :) A bit about myself: I'm a Senior Data Analytics Developer at Mathematica (~3 years) in human services and before that I was at the New York City Department of Health and Mental Hygiene as a Health Data Scientist (3.5 years). I've spent my time on projects related to early childhood education, return to work after disability, school meal operations, COVID19 vaccination rates, and other Department of Education projects. I enjoy building reporting tools and visualizations in R, Python, and SAS. This portfolio, a constant work in progress as I continue to learn more in the field of data science, is used to showcase my projects, discuss lessons learned, and hopefully document my progress. Thanks for time. Please feel free to reach out to me: jensennhu@gmail.com   
   
 </p>
 
@@ -13,13 +13,6 @@ Data Exploration & Visualization
 
 Automating Reporting Methods
 - [Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)](https://jensennhu.github.io//2020/09/14/COVID19_Email_Report/)
-
-Regression  
-- (PENDING) [Predicting California Housing Price - Regression using Python's Scikit Learn](https://jensennhu.github.io//2022/02/09/California_housing/) 
-
-Classification  
-- (PENDING) [Modeling the Occurrence of Stroke - Binary Classification with Python's Scikit Learn](https://jensennhu.github.io//2022/02/09/stroke/) 
-
 
 <div class="figure">
   <img src="/images/1517458762231.jpg">
