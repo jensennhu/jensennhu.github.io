@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey there! My name is Jensen Hu :) I currently work at the New York City Department of Health and Mental Hygiene as a Health Data Scientist on projects related to the health of school aged children in NYC public schools. I enjoy building reporting tools and visualizations in R, Python, and SAS. This portfolio, a constant work in progress as I continue to learn more in the field of data science, is used to showcase my projects, discuss lessons learned, and hopefully document my progress. Thanks for time. Please feel free to reach out to me: jensennhu@gmail.com   
+  Hey there! My name is Jensen Hu :) A bit about myself: I am a Senior Data Analytics Developer at Mathematica (~3 years) and before that I worked at the New York City Department of Health and Mental Hygiene as a Health Data Scientist (3.5 years). I've spent my time on projects related to early childhood education, return to work after disability, school meal operations, COVID19 vaccination rates, etc. I enjoy building reporting tools and visualizations in R, Python, and SAS. This portfolio, a constant work in progress as I continue to learn more in the field of data science, is used to showcase my projects, discuss lessons learned, and hopefully document my progress. Thanks for time. Please feel free to reach out to me: jensennhu@gmail.com   
   
 </p>
 
