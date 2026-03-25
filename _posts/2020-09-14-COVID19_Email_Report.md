@@ -28,8 +28,8 @@ https://github.com/CSSEGISandData/COVID-19
 
 Tools: blastula, dplyr, ggplot2
 
-![mh_needs_svi_dash2](/images/joined1_2.jpg)
-![mh_needs_svi_dash2](/images/joined3_4.jpg)
+![COVID-19 email report pages 1 and 2](/images/joined1_2.jpg)
+![COVID-19 email report pages 3 and 4](/images/joined3_4.jpg)
 
 
 Also, [visit the project on GitHub](https://github.com/jensennhu/automated_sitrep_covid19).  
