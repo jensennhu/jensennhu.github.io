@@ -1,10 +1,5 @@
 ---
 layout: post
-title: finance-reporting
----
-
----
-layout: post
 title: Tracking Finances with Plaid, GoogleSheets, and R 
 ---
 
