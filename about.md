@@ -4,21 +4,37 @@ title: About
 ---
 
 <p class="message">
-  Hi there! My name is Jensen Hu :) I'm a Senior Data Analytics Developer at Mathematica (~3 years) and before that I was at the New York City Department of Health and Mental Hygiene as a Health Data Scientist (3.5 years). I've spent my time on projects related to early childhood education, return to work after disability, school meal operations, COVID19 vaccination rates, and other Department of Education projects. I enjoy building reporting tools and visualizations in R, Stata, SAS, Python. This data science portfolio, a constant work in progress as I continue to learn more, is used to showcase my projects, discuss lessons learned, and hopefully document my progress. Thanks for time. Please feel free to reach out to me: jensennhu@gmail.com   
-  
+Hi there! My name is Jensen Hu :) I'm a Senior Data Analytics Developer at Mathematica (~3 years) and before that I was at the New York City Department of Health and Mental Hygiene as a Health Data Scientist (3.5 years). I've spent my time on projects related to early childhood education, return to work after disability, school meal operations, COVID19 vaccination rates, and other Department of Education projects. I enjoy building reporting tools and visualizations in R, Stata, SAS, Python.
+
+This data science portfolio is a constant work in progress as I continue to learn more. Thanks for visiting!
 </p>
 
-Data Exploration & Visualization
-- [Exploring NYC's social vulnerability and child opportunity with the intent of assessing child mental health need in the context of COVID-19 and racial injustice](https://jensennhu.github.io/2020/05/29/MH_Needs/)
+<h2>Projects</h2>
 
-Automating Reporting Methods
-- [Tracking finances using Plaid, GoogleSheet, R](https://jensennhu.github.io/2026/03/26/finance-reporting/)
-- [Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)](https://jensennhu.github.io/2020/09/14/COVID19_Email_Report/)
+<div class="portfolio-grid">
 
+<a href="https://jensennhu.github.io/2020/05/29/MH_Needs/" class="portfolio-item">
+  <img src="/images/mh_needs_svi_dash.PNG">
+  <div class="overlay">
+    <div class="title">NYC Social Vulnerability</div>
+    <div class="subtitle">Child mental health need analysis</div>
+  </div>
+</a>
 
-<div class="figure">
-  <img src="/images/1517458762231.jpg">
-  <p></p>
+<a href="https://jensennhu.github.io/2026/03/26/finance-reporting/" class="portfolio-item">
+  <img src="/images/networth_obfs.jpg">
+  <div class="overlay">
+    <div class="title">Finance Tracking Automation</div>
+    <div class="subtitle">Plaid + Google Sheets + R</div>
+  </div>
+</a>
+
+<a href="https://jensennhu.github.io/2020/09/14/COVID19_Email_Report/" class="portfolio-item">
+  <img src="/images/joined1_2.jpg">
+  <div class="overlay">
+    <div class="title">COVID Email Reporting</div>
+    <div class="subtitle">Automated reporting pipeline</div>
+  </div>
+</a>
+
 </div>
-  
-
