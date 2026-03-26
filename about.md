@@ -13,7 +13,7 @@ Hi there! My name is Jensen Hu :) I'm a Senior Data Analytics Developer at Mathe
 <div class="portfolio-grid">
 
 <a href="https://jensennhu.github.io/2026/03/26/finance-reporting/" class="portfolio-item">
-<img src="/images/finance.jpg">
+<img src="/images/networth_obfs.jpg">
 <div class="overlay">
 <div class="title">Finance Tracking Automation</div>
 <div class="subtitle">Plaid + Google Sheets + R</div>
@@ -21,7 +21,7 @@ Hi there! My name is Jensen Hu :) I'm a Senior Data Analytics Developer at Mathe
 </a>
 
 <a href="https://jensennhu.github.io/2020/09/14/COVID19_Email_Report/" class="portfolio-item">
-<img src="/images/covid_report.jpg">
+<img src="/images/joined1_2.jpg">
 <div class="overlay">
 <div class="title">COVID Email Reporting</div>
 <div class="subtitle">Automated Pandemic Reports</div>
@@ -36,7 +36,7 @@ Hi there! My name is Jensen Hu :) I'm a Senior Data Analytics Developer at Mathe
 <div class="portfolio-grid">
 
 <a href="https://jensennhu.github.io/2020/05/29/MH_Needs/" class="portfolio-item">
-<img src="/images/mh_needs.jpg">
+<img src="/images/mh_needs_svi_dash.PNG">
 <div class="overlay">
 <div class="title">NYC Social Vulnerability</div>
 <div class="subtitle">Child Mental Health Need</div>
