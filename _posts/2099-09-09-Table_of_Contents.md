@@ -9,4 +9,5 @@ Data Exploration & Visualization
 Automating Reporting Methods
 - [Automated email reporting during the COVID-19 Pandemic (August 2020 - Present)](https://jensennhu.github.io/2020/09/14/COVID19_Email_Report/)
 
-
+__new__
+- [finance-reporting](https://jensennhu.github.io/2026/03/26/finance-reporting/)
