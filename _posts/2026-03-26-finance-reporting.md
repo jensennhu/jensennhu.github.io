@@ -3,12 +3,6 @@ layout: post
 title: Tracking Finances with Plaid, GoogleSheets, and R 
 ---
 
-![networth_obfs](/images/networth_obfs.jpg)
-
-![paycheck_overlay](/images/paycheck_overlay.jpg)
-
-![test](/images/test.jpg)
-
 **Aim**: Improve awareness of expenses and flow of money.  
 
 **Introduction**: 
@@ -31,5 +25,11 @@ Knowing where your money goes is important. Did I spend beyond my budget on groc
 - Plaid's categorization of expenses isn't perfect so mapping categories to correct labels requires continued iteration. The current case_when code structure to clean expense categories (shown below) is unwieldy and lacks as a robust long term solution. Listing these categories/rules into a separate googlesheet tab or local csv to serve as a look-up may be a more transparent and easily editable solution.   
 
 `main_category = case_when(plaid_category_1 == "Shops" & plaid_category_2 == "Supermarkets and Groceries"  ~ "Groceries" ...)`
+
+![networth_obfs](/images/networth_obfs.jpg)
+
+![paycheck_overlay](/images/paycheck_overlay.jpg)
+
+![test](/images/test.jpg)
 
 Disclaimer: the opinions expressed and analyses performed are solely my own and do not necessarily reflect the official policy or position of my employer.
