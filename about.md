@@ -13,27 +13,25 @@ This data science portfolio is a constant work in progress as I continue to lear
 
 <div class="portfolio-grid">
 
-<a href="https://jensennhu.github.io/2020/05/29/MH_Needs/" class="portfolio-item">
-  <img src="/images/mh_needs_svi_dash.PNG">
-  <div class="overlay">
-    <div class="title">NYC Social Vulnerability</div>
-    <div class="subtitle">Child mental health need analysis</div>
-  </div>
-</a>
-
 <a href="https://jensennhu.github.io/2026/03/26/finance-reporting/" class="portfolio-item">
   <img src="/images/networth_obfs.jpg">
   <div class="overlay">
-    <div class="title">Finance Tracking Automation</div>
-    <div class="subtitle">Plaid + Google Sheets + R</div>
+    <div class="title">Finance Tracking Automation: Plaid + Google Sheets + R</div>
   </div>
 </a>
 
 <a href="https://jensennhu.github.io/2020/09/14/COVID19_Email_Report/" class="portfolio-item">
   <img src="/images/joined1_2.jpg">
   <div class="overlay">
-    <div class="title">COVID Email Reporting</div>
-    <div class="subtitle">Automated reporting pipeline</div>
+    <div class="title">Automated COVID Email Reporting </div>
+  </div>
+</a>
+
+<a href="https://jensennhu.github.io/2020/05/29/MH_Needs/" class="portfolio-item">
+  <img src="/images/mh_needs_svi_dash.PNG">
+  <div class="overlay">
+    <div class="title">NYC Social Vulnerability</div>
+    <div class="subtitle">Child mental health need analysis</div>
   </div>
 </a>
 
