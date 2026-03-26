@@ -30,11 +30,11 @@ Knowing where your money goes is important. Did I spend beyond my budget on groc
 - The Google app script + google sheet as the backend works fine. A later improvement for better security and flow can be migrating this to a sql database.
 - Plaid's categorization of expenses isn't perfect so mapping categories to correct labels requires continued iteration. The current case_when code structure to clean expense categories (shown below) is unwieldy and lacks as a robust long term solution. Listing these categories/rules into a separate googlesheet tab or local csv to serve as a look-up may be a more transparent and easily editable solution.   
 
->    `main_category = case_when(`
-      `plaid_category_1 == "Shops"          & plaid_category_2 == "Supermarkets and Groceries"                      ~ "Groceries",`
-      `plaid_category_1 == "Shops"          & plaid_category_2 == "Warehouses and Wholesale Stores"                 ~ "Costco",`
-      `plaid_category_1 == "Shops"          & plaid_category_2 == "Food and Beverage Store"                         ~ "Dining out",`
-      `plaid_category_1 == "Food and Drink" & (plaid_category_3 != "Coffee Shop" | is.na(plaid_category_3))         ~ "Dining out",`
-      `plaid_category_3 == "Coffee Shop"                                                                            ~ "Coffee"...`
+>    `main_category = case_when(
+      plaid_category_1 == "Shops"          & plaid_category_2 == "Supermarkets and Groceries"                      ~ "Groceries",
+      plaid_category_1 == "Shops"          & plaid_category_2 == "Warehouses and Wholesale Stores"                 ~ "Costco",
+      plaid_category_1 == "Shops"          & plaid_category_2 == "Food and Beverage Store"                         ~ "Dining out",
+      plaid_category_1 == "Food and Drink" & (plaid_category_3 != "Coffee Shop" | is.na(plaid_category_3))         ~ "Dining out",
+      plaid_category_3 == "Coffee Shop"                                                                            ~ "Coffee"...`
 
 Disclaimer: the opinions expressed and analyses performed are solely my own and do not necessarily reflect the official policy or position of my employer.
