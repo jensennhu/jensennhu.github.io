@@ -24,7 +24,8 @@ Knowing where your money goes is important. Did I spend beyond my budget on groc
 - The Google app script + google sheet as the backend works fine. A later improvement for better security and flow can be migrating this to a sql database.
 - Plaid's categorization of expenses isn't perfect so mapping categories to correct labels requires continued iteration. The current case_when code structure to clean expense categories (shown below) is unwieldy and lacks as a robust long term solution. Listing these categories/rules into a separate googlesheet tab or local csv to serve as a look-up may be a more transparent and easily editable solution.   
 
-`main_category = case_when(plaid_category_1 == "Shops" & plaid_category_2 == "Supermarkets and Groceries"  ~ "Groceries" ...)`
+[`main_category = case_when(plaid_category_1 == "Shops" & plaid_category_2 == "Supermarkets and Groceries"  ~ "Groceries" ...)`](https://github.com/jensennhu/tracking-finances-public/blob/06c8f49572ffdfffd59013f977d7f4f8b2a424db/scripts/01a_data_prep_live.R#L150-L179)
+
 
 ![networth_obfs](/images/networth_obfs.jpg)
 
@@ -32,4 +33,5 @@ Knowing where your money goes is important. Did I spend beyond my budget on groc
 
 ![test](/images/test.jpg)
 
+Check out the github project [here](https://github.com/jensennhu/tracking-finances-public/tree/main)
 Disclaimer: the opinions expressed and analyses performed are solely my own and do not necessarily reflect the official policy or position of my employer.
