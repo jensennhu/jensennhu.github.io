@@ -52,5 +52,5 @@ Cloudflare pages hosts html output produced from 02a_data_analytics.Rmd
 
 ![test](/images/test.jpg)
 
-Check out the github project [here](https://github.com/jensennhu/tracking-finances-public/tree/main)
+Check out the github project [here](https://github.com/jensennhu/tracking-finances-public/tree/main)  
 Disclaimer: the opinions expressed and analyses performed are solely my own and do not necessarily reflect the official policy or position of my employer.
