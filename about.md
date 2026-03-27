@@ -5,7 +5,7 @@ title: About
 
 <div class="about-container">
 
-  <img src="/images/jensen.jpg" alt="Jensen Hu" class="about-photo">
+  <img src="/images/0.jpg" alt="Jensen Hu" class="about-photo">
 
   <p class="message">
   Hi there! My name is Jensen Hu :) I'm a Senior Data Analytics Developer at Mathematica (~3 years) and before that I was at the New York City Department of Health and Mental Hygiene as a Health Data Scientist (3.5 years). I've spent my time on projects related to early childhood education, return to work after disability, school meal operations, COVID19 vaccination rates, and other Department of Education projects. I enjoy building reporting tools and visualizations in R, Stata, SAS, Python.
