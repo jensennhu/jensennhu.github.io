@@ -29,8 +29,8 @@ Cloudflare pages hosts html output produced from 02a_data_analytics.Rmd
 
 | Layer | Tools |
 |-------|-------|
-| Data source | [Plaid](https://plaid.com/) → Google Sheets|
-| Data ingestion | Google App Script (https://github.com/williamlmao/plaid-to-gsheets),  `googlesheets4`, `googledrive` |
+| Data source | Personal bank account, transaction data |
+| Data ingestion | [Plaid](https://plaid.com/) → Google Sheets (https://github.com/williamlmao/plaid-to-gsheets),  `googlesheets4`, `googledrive` |
 | Data processing | `dplyr`, `tidyr`, `lubridate`, `janitor` |
 | Visualization | `ggplot2`, `patchwork` |
 | Reporting | `rmarkdown`, `DT`, `formattable`, `fontawesome` |
