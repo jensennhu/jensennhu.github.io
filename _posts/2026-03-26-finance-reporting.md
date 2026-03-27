@@ -10,7 +10,7 @@ Knowing where your money goes is important. Did I spend beyond my budget on groc
 
 **Methods:**
 - Plaid for transactions and account balance data. Required a production level approval and three-step authentication.
-- Google app script + google sheet for data pipeline/backend. I used an existing google app script [https://github.com/williamlmao/plaid-to-gsheets?tab=readme-ov-file]. There were a few updates I made to get the script to be functional, but generally, it required the access_tokens acquired from the earlier plaid three-step auth. I set the trigger in the app script to run every morning. 
+- Google app script + google sheet for data pipeline/backend. I used an [existing google app script](https://github.com/williamlmao/plaid-to-gsheets?tab=readme-ov-file). There were a few updates I made to get the script to be functional, but generally, it required the access_tokens acquired from the earlier plaid three-step auth. I set the trigger in the app script to run every morning. 
 - Main R scripts :
   - 01a_data_prep_live.R - reading in googlesheet data, cleaning, data construction
   - 02a_data_analytics.Rmd - main visualizations and summary html output to be hosted
