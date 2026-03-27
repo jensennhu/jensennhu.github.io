@@ -92,3 +92,22 @@
   margin-top: 2rem;
   margin-bottom: 0;
 }
+
+/* ── About section layout ───────────────────────────────────── */
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.about-photo {
+  width: 180px;
+  border-radius: 50%;   /* makes the photo circular */
+  flex-shrink: 0;
+}
+
+.about-container p {
+  margin: 0;
+}
