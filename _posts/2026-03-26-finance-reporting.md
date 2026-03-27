@@ -11,7 +11,7 @@ Knowing where your money goes is important. Did I spend beyond my budget on groc
 **Methods:**
 
 ```
-Google Sheets (Plaid bank feeds) → I used an [existing google app script](https://github.com/williamlmao/plaid-to-gsheets?tab=readme-ov-file)
+Google Sheets (Plaid bank feeds) → contains underlying google app script
         │
         ▼
 01a_data_prep_live.R        ← cleans balances, transactions, budget
@@ -25,9 +25,17 @@ Google Sheets (Plaid bank feeds) → I used an [existing google app script](http
 GitHub Actions runs the full pipeline daily at 7 AM UTC,
 commits outputs, and emails the account summary.
 Cloudflare pages hosts html output produced from 02a_data_analytics.Rmd
-```
-- Github actions for automation and orchestration.
-- Cloudflare for hosting.  
+``` 
+
+| Layer | Tools |
+|-------|-------|
+| Data source | [Plaid](https://plaid.com/) → Google Sheets|
+| Data ingestion | Google App Script (https://github.com/williamlmao/plaid-to-gsheets),  `googlesheets4`, `googledrive` |
+| Data processing | `dplyr`, `tidyr`, `lubridate`, `janitor` |
+| Visualization | `ggplot2`, `patchwork` |
+| Reporting | `rmarkdown`, `DT`, `formattable`, `fontawesome` |
+| Automation | GitHub Actions (daily cron) |
+| Hosting | Cloudflare Pages |
 
 
 **Lessons Learned**:
