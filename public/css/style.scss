@@ -93,3 +93,19 @@
   margin-bottom: 0;
 }
 
+.page .about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.page .about-photo {
+  width: 180px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.page .about-container .message {
+  margin: 0;
+}
