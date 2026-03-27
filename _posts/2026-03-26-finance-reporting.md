@@ -45,6 +45,7 @@ Cloudflare pages hosts html output produced from 02a_data_analytics.Rmd
 
 [`main_category = case_when(plaid_category_1 == "Shops" & plaid_category_2 == "Supermarkets and Groceries"  ~ "Groceries" ...)`](https://github.com/jensennhu/tracking-finances-public/blob/06c8f49572ffdfffd59013f977d7f4f8b2a424db/scripts/01a_data_prep_live.R#L150-L179)
 
+**Sample Pictures**:
 
 ![networth_obfs](/images/networth_obfs.jpg)
 
