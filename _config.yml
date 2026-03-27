@@ -1,8 +1,7 @@
 # Setup
 title:               Portfolio
 tagline:             'Jensen Hu'
-description:         '![1517458762231.jpg](/images/1517458762231.jpg)'
-url:                 https://jensennhu.github.io/
+url:                 https://jensennhu.github.io//about/
 baseurl:             ''
 paginate:            5
 permalink:           pretty
