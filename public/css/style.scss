@@ -95,19 +95,19 @@
 
 /* ── About section layout ───────────────────────────────────── */
 
-.about-container {
+.page .about-container {
   display: flex;
   align-items: flex-start;
   gap: 24px;
   margin-bottom: 28px;
 }
 
-.about-photo {
+.page .about-photo {
   width: 180px;
-  border-radius: 50%;   /* makes the photo circular */
+  border-radius: 50%;
   flex-shrink: 0;
 }
 
-.about-container p {
+.page .about-container .message {
   margin: 0;
 }
