@@ -9,12 +9,23 @@ title: Tracking Finances with Plaid, GoogleSheets, and R
 Knowing where your money goes is important. Did I spend beyond my budget on groceries this month? Am I spending more than 50% of my income on rent? Is lifestyle creep affecting my savings? When will I pay off my loans at my current savings rate? The only way to confidently answer these questions is by tracking your finances. Several years ago I used a free app called Mint that let you link your bank accounts and credit cards, etc. , it provided analytics, trends, and allowed me to refresh my balance and see all my transactions in one area. I loved using Mint, but alas, all good things come to an end and Mint shutdown. With that, I decided to build my own financial tracking tool.
 
 **Methods:**
-- Plaid for transactions and account balance data. Required a production level approval and three-step authentication.
-- Google app script + google sheet for data pipeline/backend. I used an [existing google app script](https://github.com/williamlmao/plaid-to-gsheets?tab=readme-ov-file). There were a few updates I made to get the script to be functional, but generally, it required the access_tokens acquired from the earlier plaid three-step auth. I set the trigger in the app script to run every morning. 
-- Main R scripts :
-  - 01a_data_prep_live.R - reading in googlesheet data, cleaning, data construction
-  - 02a_data_analytics.Rmd - main visualizations and summary html output to be hosted
-  - 03a_md_accounts.Rmd - separate output for email notification
+
+```
+Google Sheets (Plaid bank feeds) → I used an [existing google app script](https://github.com/williamlmao/plaid-to-gsheets?tab=readme-ov-file)
+        │
+        ▼
+01a_data_prep_live.R        ← cleans balances, transactions, budget
+        │
+        ▼
+  .RDS intermediates
+        │
+        ├──▶ 02a_data_analytics.Rmd   → Main finance dashboard (HTML)
+        └──▶ 03a_md_accounts.Rmd      → Daily email snapshot (Markdown)
+
+GitHub Actions runs the full pipeline daily at 7 AM UTC,
+commits outputs, and emails the account summary.
+Cloudflare pages hosts html output produced from 02a_data_analytics.Rmd
+```
 - Github actions for automation and orchestration.
 - Cloudflare for hosting.  
 
