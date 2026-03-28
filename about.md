@@ -47,6 +47,14 @@ title: About
     </div>
   </a>
 
+  <a href="https://jensennhu.github.io/2026/03/28/spike-detection-and-phase-classification/" class="portfolio-item">
+    <img src="/images/spike_portfolio_1.png" alt="Spike Detection and Phase Classification">
+    <div class="overlay">
+      <div class="title">Spike Detection and Phase Classification</div>
+      <div class="subtitle">Computer Vision - BI-Directional LSTM</div>
+    </div>
+  </a>
+
 </div>
 
 <h2>Data Exploration &amp; Visualization</h2>
