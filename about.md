@@ -39,6 +39,14 @@ title: About
 
 <div class="portfolio-grid">
 
+  <a href="https://jensennhu.github.io/2026/03/28/spike-detection/" class="portfolio-item">
+    <img src="/images/spike_portfolio_1.png" alt="Spike Detection">
+    <div class="overlay">
+      <div class="title">Spike Detection</div>
+      <div class="subtitle">Computer Vision - BI-LSTM</div>
+    </div>
+  </a>
+
 </div>
 
 <h2>Data Exploration &amp; Visualization</h2>
