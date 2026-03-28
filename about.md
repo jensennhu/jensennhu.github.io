@@ -35,6 +35,20 @@ title: About
 
 </div>
 
+<h2>AI-Supported Projects</h2>
+
+<div class="portfolio-grid">
+
+  <a href="https://jensennhu.github.io/2026/03/26/finance-reporting/" class="portfolio-item">
+    <img src="/images/spike_portfolio.png" alt="Spike Detection and Phase Classification">
+    <div class="overlay">
+      <div class="title">Spike Detection and Phase Classification</div>
+      <div class="subtitle">Computer Vision - BI-Directional LSTM </div>
+    </div>
+  </a>
+
+</div>
+
 <h2>Data Exploration &amp; Visualization</h2>
 
 <div class="portfolio-grid">
